@@ -1,0 +1,32 @@
+# ============================================
+# CORE DEPENDENCIES
+# ============================================
+
+# FastAPI - Web framework for API
+fastapi==0.109.0
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.27.0
+
+# Pydantic - Data validation
+pydantic==2.5.0
+
+# Python multipart - For file uploads
+python-multipart==0.0.9
+
+# ============================================
+# AI DEPENDENCIES (Choose based on mode)
+# ============================================
+
+# Claude API (if using paid mode)
+anthropic==0.18.1
+
+# Ollama (if using free mode)
+ollama==0.1.6
+
+# ============================================
+# OPTIONAL UTILITIES
+# ============================================
+
+# Python dotenv - For .env file support
+python-dotenv==1.0.0
